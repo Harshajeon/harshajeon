@@ -1,0 +1,25 @@
+body {
+    border-style: double;
+    text-align: center;
+}
+div{
+    border: 100px;
+    background-color:black;
+    color:bisque;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+div{
+    margin: 350px ;
+    margin-top: 20px;
+    height: 250px;
+}
+button {
+    background-color: red;
+    cursor:wait;
+}   
+h1{
+    background-color: cadetblue;
+}

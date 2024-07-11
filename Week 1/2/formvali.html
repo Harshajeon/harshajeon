@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 160px;margin-top: 30px;margin-bottom: 30px;border-color: cadetblue;border-style: double;background-color: black;padding:100px;padding-top: 70px;padding-bottom: 70px;">
+    <form style="background-color:darkcyan;">
+        <h1 style="color:rgb(217, 245, 217);text-align: center;padding: 5px;">REGISTRATION</h1>
+        <table style="padding: 100px;">
+            <div>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" pattern="[a-z A-Z]{2,}" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="[a-zA-z0-9]+"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" pattern="[^0-9]{,8}[a-zA-Z]" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone</label>
+                    </td>
+                    <td>
+                        <input type="number" pattern="[0-9]+{10,10}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td style="text-align: center;">
+                        <br>
+                        <br>
+                        <input type="submit"/>
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </form>
+</body>
+</html>

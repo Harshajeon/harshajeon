@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color:white ;
+}
+.top{
+    background-color: darkolivegreen;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+table{
+  color: white;
+  display: flex;
+  text-align: justify;
+}
+#img{
+  padding-left: 450px;
+  text-align: center;
+  display: flex;
+}
